@@ -60,6 +60,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wmp-Db-uec"/>
+                    <connections>
+                        <segue destination="DsN-ir-Ohg" kind="presentation" identifier="alreadyLoggedIn" id="wN6-Df-lAM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,7 +101,7 @@
                                         <rect key="frame" x="0.0" y="95" width="343" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNm-Ym-2qL">
                                         <rect key="frame" x="0.0" y="133" width="343" height="30"/>
@@ -170,7 +173,7 @@
                                         <rect key="frame" x="0.0" y="95.5" width="343" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ll-qG-dPO">
                                         <rect key="frame" x="0.0" y="133.5" width="139.5" height="20.5"/>
@@ -182,7 +185,7 @@
                                         <rect key="frame" x="0.0" y="162" width="343" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qx-lt-BDQ">
                                         <rect key="frame" x="0.0" y="200" width="343" height="30"/>
@@ -237,10 +240,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x18-Hl-9Yc">
+                                <rect key="frame" x="163" y="49" width="49" height="30"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="LogOut:" destination="DsN-ir-Ohg" eventType="touchUpInside" id="JC8-ul-fzs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="x18-Hl-9Yc" firstAttribute="centerX" secondItem="LbB-WE-n1M" secondAttribute="centerX" id="4RH-cK-ki8"/>
                             <constraint firstItem="K99-2s-DUO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i1d-I7-Lc3" secondAttribute="leading" id="BN5-gE-3Ai"/>
+                            <constraint firstItem="x18-Hl-9Yc" firstAttribute="leading" secondItem="i1d-I7-Lc3" secondAttribute="leading" constant="163" id="Zhz-yD-TAc"/>
+                            <constraint firstItem="x18-Hl-9Yc" firstAttribute="top" secondItem="K99-2s-DUO" secondAttribute="bottom" constant="8" symbolic="YES" id="gNL-Xw-STV"/>
                             <constraint firstItem="i1d-I7-Lc3" firstAttribute="trailing" secondItem="K99-2s-DUO" secondAttribute="trailing" constant="163" id="sMc-vF-KOx"/>
                             <constraint firstItem="K99-2s-DUO" firstAttribute="top" secondItem="i1d-I7-Lc3" secondAttribute="top" id="u2c-l0-kaU"/>
                         </constraints>
