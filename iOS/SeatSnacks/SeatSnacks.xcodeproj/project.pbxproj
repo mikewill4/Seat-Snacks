@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0404D1E500C63F24AB2F700E /* Pods_SeatSnacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B989D278FC9A4BA7EF96A6A /* Pods_SeatSnacks.framework */; };
 		216CF6D121D704F000ECEE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D021D704F000ECEE1A /* AppDelegate.swift */; };
-		216CF6D321D704F000ECEE1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D221D704F000ECEE1A /* ViewController.swift */; };
+		216CF6D321D704F000ECEE1A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D221D704F000ECEE1A /* StartViewController.swift */; };
 		216CF6D621D704F000ECEE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216CF6D421D704F000ECEE1A /* Main.storyboard */; };
 		216CF6D921D704F000ECEE1A /* SeatSnacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D721D704F000ECEE1A /* SeatSnacks.xcdatamodeld */; };
 		216CF6DB21D704F200ECEE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216CF6DA21D704F200ECEE1A /* Assets.xcassets */; };
 		216CF6DE21D704F200ECEE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216CF6DC21D704F200ECEE1A /* LaunchScreen.storyboard */; };
 		216CF6E921D704F200ECEE1A /* SeatSnacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6E821D704F200ECEE1A /* SeatSnacksTests.swift */; };
 		216CF6F421D704F200ECEE1A /* SeatSnacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6F321D704F200ECEE1A /* SeatSnacksUITests.swift */; };
+		216CF70221D70AA300ECEE1A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF70121D70AA300ECEE1A /* LoginViewController.swift */; };
+		216CF70421D70ABD00ECEE1A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF70321D70ABD00ECEE1A /* SignUpViewController.swift */; };
+		216CF70621D70AC800ECEE1A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF70521D70AC800ECEE1A /* HomeViewController.swift */; };
+		216CF70921D715E800ECEE1A /* burger_fries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 216CF70821D715E800ECEE1A /* burger_fries.jpg */; };
+		216CF70F21D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 216CF70E21D71F6C00ECEE1A /* GoogleService-Info.plist */; };
+		216CF71021D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 216CF70E21D71F6C00ECEE1A /* GoogleService-Info.plist */; };
+		216CF71121D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 216CF70E21D71F6C00ECEE1A /* GoogleService-Info.plist */; };
+		A93B4DB247482F4FDD7FF9D0 /* Pods_SeatSnacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1771D564CF826AB65DC86D /* Pods_SeatSnacksTests.framework */; };
+		F9553560F0FFA067745661BF /* Pods_SeatSnacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E57129B5FB829305D661BB /* Pods_SeatSnacksUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B764BAADF7553C735C95D97 /* Pods-SeatSnacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacks/Pods-SeatSnacks.release.xcconfig"; sourceTree = "<group>"; };
+		1C1FB7BBBA44183278C5DE31 /* Pods-SeatSnacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacks/Pods-SeatSnacks.debug.xcconfig"; sourceTree = "<group>"; };
 		216CF6CD21D704F000ECEE1A /* SeatSnacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatSnacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216CF6D021D704F000ECEE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		216CF6D221D704F000ECEE1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		216CF6D221D704F000ECEE1A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		216CF6D521D704F000ECEE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		216CF6D821D704F000ECEE1A /* SeatSnacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeatSnacks.xcdatamodel; sourceTree = "<group>"; };
 		216CF6DA21D704F200ECEE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		216CF6EF21D704F200ECEE1A /* SeatSnacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatSnacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216CF6F321D704F200ECEE1A /* SeatSnacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatSnacksUITests.swift; sourceTree = "<group>"; };
 		216CF6F521D704F200ECEE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216CF70121D70AA300ECEE1A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		216CF70321D70ABD00ECEE1A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		216CF70521D70AC800ECEE1A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		216CF70821D715E800ECEE1A /* burger_fries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burger_fries.jpg; sourceTree = "<group>"; };
+		216CF70E21D71F6C00ECEE1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B989D278FC9A4BA7EF96A6A /* Pods_SeatSnacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatSnacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1771D564CF826AB65DC86D /* Pods_SeatSnacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatSnacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B64FE6436C026177E03DD0 /* Pods-SeatSnacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacksTests/Pods-SeatSnacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C0F4C7B0492A264D6D18C4D /* Pods-SeatSnacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacksUITests/Pods-SeatSnacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7AE582DEAB55816D407BB3E /* Pods-SeatSnacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacksUITests/Pods-SeatSnacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB28FB91217CE95980BCBAA /* Pods-SeatSnacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacksTests/Pods-SeatSnacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2E57129B5FB829305D661BB /* Pods_SeatSnacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatSnacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0404D1E500C63F24AB2F700E /* Pods_SeatSnacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93B4DB247482F4FDD7FF9D0 /* Pods_SeatSnacksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9553560F0FFA067745661BF /* Pods_SeatSnacksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16AD8FA0C90D05CD4529B484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C1FB7BBBA44183278C5DE31 /* Pods-SeatSnacks.debug.xcconfig */,
+				0B764BAADF7553C735C95D97 /* Pods-SeatSnacks.release.xcconfig */,
+				EFB28FB91217CE95980BCBAA /* Pods-SeatSnacksTests.debug.xcconfig */,
+				71B64FE6436C026177E03DD0 /* Pods-SeatSnacksTests.release.xcconfig */,
+				E7AE582DEAB55816D407BB3E /* Pods-SeatSnacksUITests.debug.xcconfig */,
+				9C0F4C7B0492A264D6D18C4D /* Pods-SeatSnacksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		216CF6C421D704F000ECEE1A = {
 			isa = PBXGroup;
 			children = (
+				216CF70721D715D300ECEE1A /* Images */,
 				216CF6CF21D704F000ECEE1A /* SeatSnacks */,
 				216CF6E721D704F200ECEE1A /* SeatSnacksTests */,
 				216CF6F221D704F200ECEE1A /* SeatSnacksUITests */,
 				216CF6CE21D704F000ECEE1A /* Products */,
+				16AD8FA0C90D05CD4529B484 /* Pods */,
+				B13A86BAD43EBA2EB55C86D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +143,16 @@
 			isa = PBXGroup;
 			children = (
 				216CF6D021D704F000ECEE1A /* AppDelegate.swift */,
-				216CF6D221D704F000ECEE1A /* ViewController.swift */,
+				216CF6D221D704F000ECEE1A /* StartViewController.swift */,
 				216CF6D421D704F000ECEE1A /* Main.storyboard */,
 				216CF6DA21D704F200ECEE1A /* Assets.xcassets */,
 				216CF6DC21D704F200ECEE1A /* LaunchScreen.storyboard */,
 				216CF6DF21D704F200ECEE1A /* Info.plist */,
+				216CF70E21D71F6C00ECEE1A /* GoogleService-Info.plist */,
 				216CF6D721D704F000ECEE1A /* SeatSnacks.xcdatamodeld */,
+				216CF70121D70AA300ECEE1A /* LoginViewController.swift */,
+				216CF70321D70ABD00ECEE1A /* SignUpViewController.swift */,
+				216CF70521D70AC800ECEE1A /* HomeViewController.swift */,
 			);
 			path = SeatSnacks;
 			sourceTree = "<group>";
@@ -128,6 +175,24 @@
 			path = SeatSnacksUITests;
 			sourceTree = "<group>";
 		};
+		216CF70721D715D300ECEE1A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				216CF70821D715E800ECEE1A /* burger_fries.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B13A86BAD43EBA2EB55C86D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B989D278FC9A4BA7EF96A6A /* Pods_SeatSnacks.framework */,
+				6D1771D564CF826AB65DC86D /* Pods_SeatSnacksTests.framework */,
+				F2E57129B5FB829305D661BB /* Pods_SeatSnacksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 216CF6F821D704F200ECEE1A /* Build configuration list for PBXNativeTarget "SeatSnacks" */;
 			buildPhases = (
+				13DE23BDD20F8CA502A4D668 /* [CP] Check Pods Manifest.lock */,
 				216CF6C921D704F000ECEE1A /* Sources */,
 				216CF6CA21D704F000ECEE1A /* Frameworks */,
 				216CF6CB21D704F000ECEE1A /* Resources */,
+				FEDA8912B6C518B5A4B6E269 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 216CF6FB21D704F200ECEE1A /* Build configuration list for PBXNativeTarget "SeatSnacksTests" */;
 			buildPhases = (
+				400E661F0461DDAF793F5DD9 /* [CP] Check Pods Manifest.lock */,
 				216CF6E021D704F200ECEE1A /* Sources */,
 				216CF6E121D704F200ECEE1A /* Frameworks */,
 				216CF6E221D704F200ECEE1A /* Resources */,
@@ -170,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 216CF6FE21D704F200ECEE1A /* Build configuration list for PBXNativeTarget "SeatSnacksUITests" */;
 			buildPhases = (
+				638E55423C0C901E64F1DE81 /* [CP] Check Pods Manifest.lock */,
 				216CF6EB21D704F200ECEE1A /* Sources */,
 				216CF6EC21D704F200ECEE1A /* Frameworks */,
 				216CF6ED21D704F200ECEE1A /* Resources */,
@@ -234,6 +303,8 @@
 			files = (
 				216CF6DE21D704F200ECEE1A /* LaunchScreen.storyboard in Resources */,
 				216CF6DB21D704F200ECEE1A /* Assets.xcassets in Resources */,
+				216CF70F21D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */,
+				216CF70921D715E800ECEE1A /* burger_fries.jpg in Resources */,
 				216CF6D621D704F000ECEE1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216CF71021D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +321,118 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216CF71121D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DE23BDD20F8CA502A4D668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeatSnacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		400E661F0461DDAF793F5DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeatSnacksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638E55423C0C901E64F1DE81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeatSnacksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDA8912B6C518B5A4B6E269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeatSnacks/Pods-SeatSnacks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatSnacks/Pods-SeatSnacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		216CF6C921D704F000ECEE1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216CF6D321D704F000ECEE1A /* ViewController.swift in Sources */,
+				216CF70221D70AA300ECEE1A /* LoginViewController.swift in Sources */,
+				216CF6D321D704F000ECEE1A /* StartViewController.swift in Sources */,
 				216CF6D921D704F000ECEE1A /* SeatSnacks.xcdatamodeld in Sources */,
 				216CF6D121D704F000ECEE1A /* AppDelegate.swift in Sources */,
+				216CF70421D70ABD00ECEE1A /* SignUpViewController.swift in Sources */,
+				216CF70621D70AC800ECEE1A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +605,7 @@
 		};
 		216CF6F921D704F200ECEE1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1FB7BBBA44183278C5DE31 /* Pods-SeatSnacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +624,7 @@
 		};
 		216CF6FA21D704F200ECEE1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B764BAADF7553C735C95D97 /* Pods-SeatSnacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +643,7 @@
 		};
 		216CF6FC21D704F200ECEE1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB28FB91217CE95980BCBAA /* Pods-SeatSnacksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +665,7 @@
 		};
 		216CF6FD21D704F200ECEE1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B64FE6436C026177E03DD0 /* Pods-SeatSnacksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +687,7 @@
 		};
 		216CF6FF21D704F200ECEE1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AE582DEAB55816D407BB3E /* Pods-SeatSnacksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +708,7 @@
 		};
 		216CF70021D704F200ECEE1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F4C7B0492A264D6D18C4D /* Pods-SeatSnacksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
