@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0404D1E500C63F24AB2F700E /* Pods_SeatSnacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B989D278FC9A4BA7EF96A6A /* Pods_SeatSnacks.framework */; };
+		21642E3E21DAC2E20046DAE6 /* VenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21642E3D21DAC2E20046DAE6 /* VenueViewController.swift */; };
+		21642E4021DAC2ED0046DAE6 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21642E3F21DAC2ED0046DAE6 /* EventViewController.swift */; };
+		21642E4221DAC2F90046DAE6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21642E4121DAC2F90046DAE6 /* MenuViewController.swift */; };
+		21642E4421DAC3030046DAE6 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21642E4321DAC3030046DAE6 /* CartViewController.swift */; };
+		21642E4821DAD04B0046DAE6 /* orioles_stadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21642E4721DAD04B0046DAE6 /* orioles_stadium.jpg */; };
+		21642E4C21DAD2640046DAE6 /* ravens_stadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21642E4B21DAD2630046DAE6 /* ravens_stadium.jpg */; };
 		216CF6D121D704F000ECEE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D021D704F000ECEE1A /* AppDelegate.swift */; };
 		216CF6D321D704F000ECEE1A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D221D704F000ECEE1A /* StartViewController.swift */; };
 		216CF6D621D704F000ECEE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216CF6D421D704F000ECEE1A /* Main.storyboard */; };
@@ -47,6 +53,12 @@
 /* Begin PBXFileReference section */
 		0B764BAADF7553C735C95D97 /* Pods-SeatSnacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacks/Pods-SeatSnacks.release.xcconfig"; sourceTree = "<group>"; };
 		1C1FB7BBBA44183278C5DE31 /* Pods-SeatSnacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatSnacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatSnacks/Pods-SeatSnacks.debug.xcconfig"; sourceTree = "<group>"; };
+		21642E3D21DAC2E20046DAE6 /* VenueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueViewController.swift; sourceTree = "<group>"; };
+		21642E3F21DAC2ED0046DAE6 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		21642E4121DAC2F90046DAE6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		21642E4321DAC3030046DAE6 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		21642E4721DAD04B0046DAE6 /* orioles_stadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orioles_stadium.jpg; sourceTree = "<group>"; };
+		21642E4B21DAD2630046DAE6 /* ravens_stadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ravens_stadium.jpg; sourceTree = "<group>"; };
 		216CF6CD21D704F000ECEE1A /* SeatSnacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatSnacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216CF6D021D704F000ECEE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216CF6D221D704F000ECEE1A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +165,10 @@
 				216CF70121D70AA300ECEE1A /* LoginViewController.swift */,
 				216CF70321D70ABD00ECEE1A /* SignUpViewController.swift */,
 				216CF70521D70AC800ECEE1A /* HomeViewController.swift */,
+				21642E3D21DAC2E20046DAE6 /* VenueViewController.swift */,
+				21642E3F21DAC2ED0046DAE6 /* EventViewController.swift */,
+				21642E4121DAC2F90046DAE6 /* MenuViewController.swift */,
+				21642E4321DAC3030046DAE6 /* CartViewController.swift */,
 			);
 			path = SeatSnacks;
 			sourceTree = "<group>";
@@ -178,6 +194,8 @@
 		216CF70721D715D300ECEE1A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				21642E4721DAD04B0046DAE6 /* orioles_stadium.jpg */,
+				21642E4B21DAD2630046DAE6 /* ravens_stadium.jpg */,
 				216CF70821D715E800ECEE1A /* burger_fries.jpg */,
 			);
 			path = Images;
@@ -301,9 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21642E4821DAD04B0046DAE6 /* orioles_stadium.jpg in Resources */,
 				216CF6DE21D704F200ECEE1A /* LaunchScreen.storyboard in Resources */,
 				216CF6DB21D704F200ECEE1A /* Assets.xcassets in Resources */,
 				216CF70F21D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */,
+				21642E4C21DAD2640046DAE6 /* ravens_stadium.jpg in Resources */,
 				216CF70921D715E800ECEE1A /* burger_fries.jpg in Resources */,
 				216CF6D621D704F000ECEE1A /* Main.storyboard in Resources */,
 			);
@@ -430,9 +450,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				216CF70221D70AA300ECEE1A /* LoginViewController.swift in Sources */,
+				21642E3E21DAC2E20046DAE6 /* VenueViewController.swift in Sources */,
+				21642E4421DAC3030046DAE6 /* CartViewController.swift in Sources */,
 				216CF6D321D704F000ECEE1A /* StartViewController.swift in Sources */,
 				216CF6D921D704F000ECEE1A /* SeatSnacks.xcdatamodeld in Sources */,
+				21642E4221DAC2F90046DAE6 /* MenuViewController.swift in Sources */,
 				216CF6D121D704F000ECEE1A /* AppDelegate.swift in Sources */,
+				21642E4021DAC2ED0046DAE6 /* EventViewController.swift in Sources */,
 				216CF70421D70ABD00ECEE1A /* SignUpViewController.swift in Sources */,
 				216CF70621D70AC800ECEE1A /* HomeViewController.swift in Sources */,
 			);
