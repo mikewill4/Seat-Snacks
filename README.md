@@ -4,4 +4,6 @@ A necessary app for the sports fanatic. Have food and beverages delivered straig
 * Create payment process with Stripe integration
 * Optimization algorithms for delivering
 * Mapping a stadium
-* Enter seat from ticket or just scan ticket?
+* Fix tab bar icons (too big)
+* Add pop up for entering seat info (on event selection)
+* Add menu and cart UI
