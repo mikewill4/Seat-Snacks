@@ -14,6 +14,16 @@
 		21642E4421DAC3030046DAE6 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21642E4321DAC3030046DAE6 /* CartViewController.swift */; };
 		21642E4821DAD04B0046DAE6 /* orioles_stadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21642E4721DAD04B0046DAE6 /* orioles_stadium.jpg */; };
 		21642E4C21DAD2640046DAE6 /* ravens_stadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21642E4B21DAD2630046DAE6 /* ravens_stadium.jpg */; };
+		216B125E21DF02AD00D63980 /* CheckoutCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B125D21DF02AD00D63980 /* CheckoutCart.swift */; };
+		216B126021DF041C00D63980 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B125F21DF041C00D63980 /* Item.swift */; };
+		216B126221DF079900D63980 /* CartItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B126121DF079900D63980 /* CartItemTableViewCell.swift */; };
+		216B126421DF0B9C00D63980 /* CartTotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B126321DF0B9C00D63980 /* CartTotalTableViewCell.swift */; };
+		216B126621DF0BAC00D63980 /* NumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B126521DF0BAC00D63980 /* NumberFormat.swift */; };
+		216B126821DF33D100D63980 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B126721DF33D100D63980 /* MenuItemTableViewCell.swift */; };
+		216B126A21DF361200D63980 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B126921DF361200D63980 /* DetailViewController.swift */; };
+		216B126C21DF381500D63980 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B126B21DF381500D63980 /* DataProvider.swift */; };
+		216B127021DF3AD200D63980 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 216B126F21DF3AD200D63980 /* menu.json */; };
+		216B127421DF3D4B00D63980 /* icons8-beer-can-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 216B127321DF3D4B00D63980 /* icons8-beer-can-96.png */; };
 		216CF6D121D704F000ECEE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D021D704F000ECEE1A /* AppDelegate.swift */; };
 		216CF6D321D704F000ECEE1A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CF6D221D704F000ECEE1A /* StartViewController.swift */; };
 		216CF6D621D704F000ECEE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216CF6D421D704F000ECEE1A /* Main.storyboard */; };
@@ -59,6 +69,16 @@
 		21642E4321DAC3030046DAE6 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		21642E4721DAD04B0046DAE6 /* orioles_stadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orioles_stadium.jpg; sourceTree = "<group>"; };
 		21642E4B21DAD2630046DAE6 /* ravens_stadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ravens_stadium.jpg; sourceTree = "<group>"; };
+		216B125D21DF02AD00D63980 /* CheckoutCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCart.swift; sourceTree = "<group>"; };
+		216B125F21DF041C00D63980 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		216B126121DF079900D63980 /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
+		216B126321DF0B9C00D63980 /* CartTotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTotalTableViewCell.swift; sourceTree = "<group>"; };
+		216B126521DF0BAC00D63980 /* NumberFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormat.swift; sourceTree = "<group>"; };
+		216B126721DF33D100D63980 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
+		216B126921DF361200D63980 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		216B126B21DF381500D63980 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		216B126F21DF3AD200D63980 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		216B127321DF3D4B00D63980 /* icons8-beer-can-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-beer-can-96.png"; sourceTree = "<group>"; };
 		216CF6CD21D704F000ECEE1A /* SeatSnacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatSnacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216CF6D021D704F000ECEE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216CF6D221D704F000ECEE1A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -167,8 +187,17 @@
 				216CF70521D70AC800ECEE1A /* HomeViewController.swift */,
 				21642E3D21DAC2E20046DAE6 /* VenueViewController.swift */,
 				21642E3F21DAC2ED0046DAE6 /* EventViewController.swift */,
+				216B126F21DF3AD200D63980 /* menu.json */,
 				21642E4121DAC2F90046DAE6 /* MenuViewController.swift */,
 				21642E4321DAC3030046DAE6 /* CartViewController.swift */,
+				216B125D21DF02AD00D63980 /* CheckoutCart.swift */,
+				216B125F21DF041C00D63980 /* Item.swift */,
+				216B126121DF079900D63980 /* CartItemTableViewCell.swift */,
+				216B126321DF0B9C00D63980 /* CartTotalTableViewCell.swift */,
+				216B126521DF0BAC00D63980 /* NumberFormat.swift */,
+				216B126721DF33D100D63980 /* MenuItemTableViewCell.swift */,
+				216B126921DF361200D63980 /* DetailViewController.swift */,
+				216B126B21DF381500D63980 /* DataProvider.swift */,
 			);
 			path = SeatSnacks;
 			sourceTree = "<group>";
@@ -196,6 +225,7 @@
 			children = (
 				21642E4721DAD04B0046DAE6 /* orioles_stadium.jpg */,
 				21642E4B21DAD2630046DAE6 /* ravens_stadium.jpg */,
+				216B127321DF3D4B00D63980 /* icons8-beer-can-96.png */,
 				216CF70821D715E800ECEE1A /* burger_fries.jpg */,
 			);
 			path = Images;
@@ -321,10 +351,12 @@
 			files = (
 				21642E4821DAD04B0046DAE6 /* orioles_stadium.jpg in Resources */,
 				216CF6DE21D704F200ECEE1A /* LaunchScreen.storyboard in Resources */,
+				216B127421DF3D4B00D63980 /* icons8-beer-can-96.png in Resources */,
 				216CF6DB21D704F200ECEE1A /* Assets.xcassets in Resources */,
 				216CF70F21D71F6C00ECEE1A /* GoogleService-Info.plist in Resources */,
 				21642E4C21DAD2640046DAE6 /* ravens_stadium.jpg in Resources */,
 				216CF70921D715E800ECEE1A /* burger_fries.jpg in Resources */,
+				216B127021DF3AD200D63980 /* menu.json in Resources */,
 				216CF6D621D704F000ECEE1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,14 +482,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				216CF70221D70AA300ECEE1A /* LoginViewController.swift in Sources */,
+				216B126A21DF361200D63980 /* DetailViewController.swift in Sources */,
 				21642E3E21DAC2E20046DAE6 /* VenueViewController.swift in Sources */,
 				21642E4421DAC3030046DAE6 /* CartViewController.swift in Sources */,
 				216CF6D321D704F000ECEE1A /* StartViewController.swift in Sources */,
+				216B126021DF041C00D63980 /* Item.swift in Sources */,
+				216B126C21DF381500D63980 /* DataProvider.swift in Sources */,
+				216B125E21DF02AD00D63980 /* CheckoutCart.swift in Sources */,
+				216B126621DF0BAC00D63980 /* NumberFormat.swift in Sources */,
 				216CF6D921D704F000ECEE1A /* SeatSnacks.xcdatamodeld in Sources */,
+				216B126221DF079900D63980 /* CartItemTableViewCell.swift in Sources */,
 				21642E4221DAC2F90046DAE6 /* MenuViewController.swift in Sources */,
 				216CF6D121D704F000ECEE1A /* AppDelegate.swift in Sources */,
 				21642E4021DAC2ED0046DAE6 /* EventViewController.swift in Sources */,
 				216CF70421D70ABD00ECEE1A /* SignUpViewController.swift in Sources */,
+				216B126821DF33D100D63980 /* MenuItemTableViewCell.swift in Sources */,
+				216B126421DF0B9C00D63980 /* CartTotalTableViewCell.swift in Sources */,
 				216CF70621D70AC800ECEE1A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
